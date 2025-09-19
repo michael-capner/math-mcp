@@ -40,6 +40,36 @@ def subtract(a: int, b: int) -> int:
     return a - b
 
 
+@mcp.tool()
+def multiply(a: int, b: int) -> int:
+    """Use this to multiply two numbers.
+
+    Args:
+        a: The first number.
+        b: The second number.
+
+    Returns:
+        The multiplication of the two numbers.
+    """
+    logger.info(f">>> Tool: 'multiply' called with numbers '{a}' and '{b}'")
+    return a * b
+
+
+@mcp.tool()
+def divide(a: int, b: int) -> int:
+    """Use this to divide two numbers.
+
+    Args:
+        a: The first number.
+        b: The second number.
+
+    Returns:
+        The division of the two numbers.
+    """
+    logger.info(f">>> Tool: 'divide' called with numbers '{a}' and '{b}'")
+    return a / b
+
+
 if __name__ == "__main__":
     # Initialize and run the server
     mcp.run(transport='stdio')
