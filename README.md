@@ -53,6 +53,30 @@ The MCP server is configured in `.vscode/mcp.json` as follows:
 }
 ```
 
+## Example Prompts
+
+You can use the following prompts with math-mcp:
+
+### Add
+```
+add 1 plus 2
+```
+
+### Subtract
+```
+subtract 5 minus 3
+```
+
+### Multiply
+```
+multiply 2 and 3
+```
+
+### Divide
+```
+divide 6 by 2
+```
+
 ## Project Structure
 - `server.py`: Main MCP server implementation
 - `pyproject.toml`: Project metadata and dependencies
