@@ -1,0 +1,14 @@
+{
+	"servers": {
+		"math-mcp": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "/workspaces/math-mcp",
+                "run",
+                "server.py"
+            ]
+        }
+	},
+	"inputs": []
+}
